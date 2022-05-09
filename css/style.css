@@ -1,0 +1,404 @@
+/*
+ADM REALTOR - TCC 2021
+PAOLO ANTONIO SPERA NETO
+
+/* CSS EM GERAL*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.container{
+    width: 80%;
+    border: 0px solid red;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.btn{
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+textarea{
+    resize: none;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+h2:hover{
+    color: #0984e3;
+}
+
+
+h3{
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h6{
+    color: #0984e3;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 10px;
+    left: 3%;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+
+}
+
+.background-color-test{
+    background-color: black;
+}
+
+
+/* CSS Barra de Navegação */
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+.menu{
+    line-height: 80px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    color: #0984e3;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.menu ul li a:hover{
+    color: #74b9ff;
+}
+
+
+/* CSS Busca de Imóveis */
+
+.imovel-search{
+    background-image: url(../images/SearchBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0;
+}
+
+.imovel-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-busca-imovel{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn-busca-imovel-primary{
+    background-color:#0984e3;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.btn-busca-imovel-primary:hover{
+    color: white;
+    background-color: black;
+}
+
+/* Categorias Imóveis */
+
+.category{
+    background-color: #2d3436;
+}
+
+.box-3{
+    border: 0px solid black;
+    width: 20%;
+    float: left;
+    margin: 6.6%;
+}
+
+/* Exibir Imóveis */
+.show{
+    background-color: #2d3436;
+    padding: 4% 0;
+}
+
+
+.show-imoveis-box{
+    border: 0px solid black;
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2.2%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.show-imoveis-img{
+    width: 35%;
+    float: left;
+    border: 0px solid red;
+    margin-left: 1%;
+    
+
+}
+
+.show-imoveis-desc{
+    border: 0px solid red;
+    width: 62%;
+    float: left;
+    margin-left: 1%;
+}
+
+.show-imoveis-desc-btn{
+    border: 0px solid red;
+    width: 62%;
+    float: left;
+    margin-left: 1%;
+
+}
+
+.show-imoveis-anuncio{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+/*Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+}
+
+/* Visitar*/
+
+.visitar{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #dfe6e9;
+    
+}
+.visitar-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+
+}
+
+.visitar-background{
+    background-image: url(../images/SearchBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0;
+}
+
+.backgroud-color-visitar-box{
+    background-color: white;
+}
+
+.backgroud-color-div{
+    background-color: #2d3436;
+}
+
+.btn-agendar-confirm{
+    padding: 1%;
+    background-color:#0984e3;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.btn-agendar-confirm:hover{
+    color: white;
+    background-color: black;
+}
+
+.sucess{
+    background-color: #0984e3;
+    color: white;
+    padding: 1% 0;
+    width: 20%;
+    position: relative; 
+    border-radius: 10px;
+    left: 40%;
+}
+
+.sucess p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+
+.error{
+    background-color: #d63031;
+    color: white;
+    padding: 1% 0;
+    width: 20%;
+    position: relative; 
+    border-radius: 10px;
+    left: 40%;
+}
+
+.error p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .logo{
+        width: 85%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    li{
+        font-size: 86%;
+    }
+    
+    .menu ul{
+        text-align: center;
+    }
+
+    h2{
+        margin-bottom: 8%;
+    }
+
+    .imovel-search input[type="search"]{
+        width: 85%;
+        margin-bottom: 3%;
+        padding: 2%;
+    }
+
+    .btn-busca-imovel{
+        width: 85%;
+        padding: 1.5%;
+    }
+
+    .imovel-search{
+        padding: 10% 0;
+    }
+
+    .category{
+        padding: 7% 0;
+    }
+
+   .box-3{
+        width: 95%;
+        margin: 2% auto;
+        margin-left: 2%;
+
+    }
+
+    .show{
+        padding-bottom: 10%;
+        border: 0px solid red;
+    }
+
+    .show-imoveis-box{
+        border: 0px solid black;
+        width: 95%;
+        margin-bottom: 5%;
+        float: left;
+        padding: 2.2%;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .show-imoveis-img{
+        width: 95%;
+        float: left;
+        border: 0px solid red;
+        margin-left: 1%;
+}
+
+}
